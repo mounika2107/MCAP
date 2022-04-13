@@ -14,6 +14,7 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+require('cypress-get-table')
 import './commands'
 
 // Alternatively you can use CommonJS syntax:

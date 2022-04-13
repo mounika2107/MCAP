@@ -19,6 +19,16 @@ export default class interactivePage {
             cy.contains('Initial Amortization Period: ').parent().next().should('exist')
             cy.contains('Payments Displayed: ').parent().next().should('exist')
         })
+        
       
     }
+
+    static validateGrid(){
+        cy.get('[width="580"] > tbody').getTable()
+          .should(tableData => {
+           expect(tableData).to.not.be.empty
+        }) 
+
+    }
+
 }

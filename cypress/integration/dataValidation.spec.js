@@ -40,6 +40,7 @@ describe('Data Validation', () => {
             mortgage.mortgagePayment, 
             mortgage.paymentFrequency
         )
+        interactivePage.validateGrid()
 
     })
 
