@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.7480" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-04-13T14:25:39" tests="0" file="cypress/integration/dataValidation.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Data Validation" timestamp="2022-04-13T14:25:39" tests="1" time="7.6780" failures="0">
+    <testcase name="Data Validation Data Validation Test" time="7.3730" classname="Data Validation Test">
+    </testcase>
+  </testsuite>
+</testsuites>
